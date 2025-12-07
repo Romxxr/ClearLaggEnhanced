@@ -1,4 +1,4 @@
-# ClearLaggEnhanced
+# ClearLaggE
 
 A modern, high-performance lag prevention plugin for Minecraft servers running Paper, Spigot, and Folia. Designed to help server owners maintain optimal server performance through intelligent entity management, advanced lag prevention systems, and real-time performance monitoring.
 
@@ -37,13 +37,10 @@ A modern, high-performance lag prevention plugin for Minecraft servers running P
 
 ## 🚀 Installation
 
-1. Download the latest `ClearLaggEnhanced.jar` from [Modrinth](https://modrinth.com/plugin/clearlaggenhanced) or [GitHub Releases](https://github.com/BusyBee-Development/ClearLaggEnhanced/releases)
+1. Download the latest 
 2. Place the JAR file in your server's `plugins` folder
 3. Restart your server (do not use `/reload`)
-4. Configure the plugin by editing `plugins/ClearLaggEnhanced/config.yml`
-5. Customize messages in `plugins/ClearLaggEnhanced/messages.yml`
-6. Reload the configuration with `/lagg reload`
-
+4. Your done!
 ---
 
 ## 🎮 Commands
