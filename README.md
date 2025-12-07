@@ -43,36 +43,17 @@ A modern, high-performance lag prevention plugin for Minecraft servers running P
 4. Your done!
 ---
 
-## 🎮 Commands
-
-All commands use the base command `/lagg` with the following aliases: `/clearlagg`, `/clearlag`, `/cl`, `/cle`
-
-| Command             | Description                          | Permission        | Default     |
-|---------------------|--------------------------------------|-------------------|-------------|
-| `/lagg help`        | Display the help menu                | `CLE.help`        | All players |
-| `/lagg clear`       | Manually clear entities now          | `CLE.clear`       | OP only     |
-| `/lagg next`        | Show time until next automatic clear | `CLE.next`        | All players |
-| `/lagg tps`         | Display current server TPS           | `CLE.tps`         | OP only     |
-| `/lagg ram`         | Show memory usage information        | `CLE.ram`         | OP only     |
-| `/lagg chunkfinder` | Find laggy chunks near you           | `CLE.chunkfinder` | OP only     |
-| `/lagg admin`       | Open the admin GUI (players only)    | `CLE.admin`       | OP only     |
-| `/lagg reload`      | Reload plugin configuration          | `CLE.reload`      | OP only     |
-
----
-
 ## 🔐 Permissions
 
-| Permission        | Description                       | Default |
-|-------------------|-----------------------------------|---------|
-| `CLE.*`           | All ClearLaggEnhanced permissions | OP      |
-| `CLE.help`        | Access to help command            | True    |
-| `CLE.clear`       | Access to manual entity clearing  | OP      |
-| `CLE.next`        | Access to next clear timer        | True    |
-| `CLE.tps`         | Access to TPS monitoring          | OP      |
-| `CLE.ram`         | Access to memory information      | OP      |
-| `CLE.chunkfinder` | Access to laggy chunk finder      | OP      |
-| `CLE.admin`       | Access to admin GUI               | OP      |
-| `CLE.reload`      | Access to configuration reload    | OP      |
+| Permission        | Description                       | Default     |
+|-------------------|-----------------------------------|-------------|
+| `CLE.help`        | Access to help command            | True        |
+| `CLE.clear`       | Access to manual entity clearing  | SERVER      |
+| `CLE.next`        | Access to next clear timer        | True        |
+| `CLE.tps`         | Access to TPS monitoring          | SERVER      |
+| `CLE.ram`         | Access to memory information      | SERVER      |
+| `CLE.chunkfinder` | Access to laggy chunk finder      | SERVER      |
+| `CLE.reload`      | Access to configuration reload    | SERVER      |
 
 ---
 
